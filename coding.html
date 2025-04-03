@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post & Admin Panel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#posts">Posts</a></li>
+                <li><a href="#admin">Admin Panel</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="posts">
+        <h2>Recent Posts</h2>
+        <table border="1" width="100%">
+            <tr>
+                <th>Image</th>
+                <th>Title</th>
+                <th>Content</th>
+                <th>Tags</th>
+            </tr>
+            <tr>
+                <td><img src="post-image.jpg" alt="Post Image" width="100"></td>
+                <td>Post Title</td>
+                <td>This is a sample post with a #hashtag and media.</td>
+                <td>#web #coding</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section id="admin">
+        <h2>Admin Panel</h2>
+        <form>
+            <label for="title">Post Title:</label>
+            <input type="text" id="title" name="title" required>
+            
+            <label for="content">Content:</label>
+            <textarea id="content" name="content" required></textarea>
+            
+            <label for="tags">Hashtags:</label>
+            <input type="text" id="tags" name="tags" placeholder="#example #coding">
+            
+            <label for="media">Upload Image:</label>
+            <input type="file" id="media" name="media">
+            
+            <button type="submit">Post</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 My Blog</p>
+    </footer>
+</body>
+</html>
+
+/* <styles.css></styles.css> */
+<body></body> {
+    <font-family: Arial, sans-serif;></font-family:>
+    <margin: 0;></margin:>
+    <padding: 0;></padding:>
+    <background-color: #f4f4f4;></background-color:>
+    <text-align: center;></text-align:>
+}
+<header></header> {
+    <background: #333;></background:>
+    <color: white;></color:>
+    <padding: 15px;></padding:>
+}
+<nav ul></nav> {
+    <list-style: none;></list-style:>
+    <padding: 0;></padding:>
+}
+<nav ul li></nav> {
+    <display: inline;></display:>
+    <margin: 0 15px;></margin:>
+}
+<nav ul li a></nav> {
+    <color: white;></color:>
+    <text-decoration: none;></text-decoration:>
+}
+<section></section> {
+    <padding: 20px;></padding:>
+}
+.<post img></post> {
+    max-width: 100%;
+    border-radius: 5px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+input, textarea, button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+}
+button {
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+<footer></footer> {
+    <background: #333;></background:>
+    <color: white;></color:>
+    <padding: 10px;></padding:>
+    <position: fixed;></position:>
+    <bottom: 0;></bottom:>
+    <width: 100%;></width:>
+}
